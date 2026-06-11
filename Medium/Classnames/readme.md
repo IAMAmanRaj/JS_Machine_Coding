@@ -16,6 +16,8 @@
 
 ## Notes
 
+- T.C : O(N) , S.C : O(N)
+
 - The solution uses a recursive helper function (classNamesImpl) to process nested arrays of arbitrary depth.
 - When an array is encountered, the helper function calls itself recursively to process each nested element.
 - For objects, each key is examined and is added to the result if everything seems right ( not inherited and it's corresponding value is truthy )
