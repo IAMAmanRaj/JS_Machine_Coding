@@ -36,7 +36,8 @@
 
 - For the last invocation, the return value becomes the return value of reduce().
 
-### Since, this is an implementation of reduce method on Array instances so under normal usage, `this` will be an array. 
+### Since, this is an implementation of reduce method on Array instances so under normal usage, `this` will be an array.
+
 ### However, JavaScript methods can be called with an arbitrary this value using `call`, `apply`, or `bind`, for example :
 
 `Array.prototype.myReduce.call({ 0: "a", 1: "b", length: 2 },(acc, cur) => acc + cur,"");`
